@@ -16,7 +16,7 @@ pipeline {
           steps {
               sh "pwd"
               sh "ls -a"
-              sh "docker build -f Dockerfile -t tomcatsamplewebb"
+              sh "docker build -t mywebapp"
 
           }
         }

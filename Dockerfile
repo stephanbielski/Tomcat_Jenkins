@@ -1,4 +1,6 @@
-FROM tomcat:8.5
+FROM tomcat:8.0-alpine
+
+LABEL maintainer=”stephan”
 
 ADD **/*.war  /usr/local/tomcat/webapps
 
