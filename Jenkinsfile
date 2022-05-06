@@ -16,7 +16,7 @@ pipeline {
           steps {
               sh "pwd"
               sh "ls -a"
-              sh "docker build -t mywebapp"
+              sh "docker build -t /var/lib/jenkins/workspace/Build_Tomcat_Docker_Image/target/java-tomcat-maven-example.war"
 
           }
         }
