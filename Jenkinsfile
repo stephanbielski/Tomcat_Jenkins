@@ -16,7 +16,7 @@ pipeline {
           steps {
               sh "pwd"
               sh "ls -a"
-              sh "docker build -t java-tomcat-maven-example.war"
+              sh "docker build -t java-tomcat-maven-example.war . "
 
           }
         }
